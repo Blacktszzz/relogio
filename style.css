@@ -1,0 +1,33 @@
+    @charset  "UTF-8";
+
+    html,body{
+            margin: 0;
+            padding: 0; 
+            background-color: #aaa;
+    }
+.relogio{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    background-color: #2a2e42;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    color: #ffff;
+    border: 10px solid #ffd523;
+    font-size: 7rem;
+    font-family: 'Qahiri', sans-serif;
+}
+
+footer{
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #333;
+    
+}
